@@ -22,12 +22,11 @@ Also implements merging operations, both for complete ini files, sections, or ev
 		<PackageTags>ini, parser, configuration, config, inifile, cfg, ini file</PackageTags>
 		<PackageId>ini-parser</PackageId>
 		<Product>INI Parser</Product>
-		<ReleaseVersion></ReleaseVersion>
 	</PropertyGroup>
 
 	<!-- Auto-select supported target frameworks based on MSBuild version -->
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+		<TargetFramework>net8.0</TargetFramework>
 		<RepositoryUrl>https://github.com/rickyah/ini-parser</RepositoryUrl>
 		<Copyright>Ricardo Amores Hernández 2009-2019</Copyright>
 	</PropertyGroup>
